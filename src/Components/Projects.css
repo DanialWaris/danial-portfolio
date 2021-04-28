@@ -1,0 +1,98 @@
+.projects-head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-head h1{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .projects-head h5 {
+    color: rgb(2, 130, 250);
+  }
+.projects {
+    padding: 150px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin: 50px;
+    padding: 40px 10px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 500px;
+    border: none;
+  }
+  .projects h1 {
+    color: #3b3b3b;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .projects hr {
+    margin: 70px 14vw;
+  }
+  .technology {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+  }
+  .technology .tech-head {
+    font-weight: bold;
+  }
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tech-list p {
+    margin: 10px 30px;
+  }
+  @media (max-width: 1175px) {
+    .tech-list p {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 750px) {
+    .projects h1 {
+      font-size: 9vw;
+    }
+    .projects hr {
+      margin: 4vw 14vw;
+    }
+  }
+  .card-body .btn {
+    border: none;
+    width: 100px;
+    padding:4px 8px;
+    border-radius: 40px;
+    background-color: rgb(167, 167, 168);
+    color: #3b3b3b;
+    box-shadow: 1px 1px 20px -6px;
+    margin: 10px 0px;
+  }
+  .card-body .btn:hover {
+    color: rgb(2, 130, 250);
+  }
+  .card-header {
+    background-color: rgb(150, 150, 150);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    color: #3b3b3b;
+    border: none;
+  }
+  .card-text {
+    font-size: 17px;
+  }
+  .card-body {
+    color: #3b3b3b;
+  }
+  .projects-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+  }
+  

@@ -1,0 +1,127 @@
+.Skills-education-head{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 100px 0px;
+}
+.Skills-education-head h5 {
+  color: rgb(2, 130, 250);
+}
+
+
+
+
+.about-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 360px;
+  /* height : 70px; */
+  margin: auto;
+  /* background-color: red; */
+}
+.about-buttons .tab-item {
+  padding:4px 8px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: white;
+  box-shadow: 1px 1px 20px -6px;
+  margin: 0px 10px;
+  outline: none;
+  width: 160px;
+  /* height : 30px */
+}
+.about-buttons .tab-item:hover{
+  background-color: #3b3b3b;
+color: rgb(2, 130, 250);
+}
+
+
+.skills-hero {
+  color: white;
+  padding: 70px 0px;
+}
+
+.skill-item-list {
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-item {
+  width: 600px;
+  margin: 20px;
+}
+
+.skill-item p{
+  color:white;
+}
+.progress-bar{
+  background-color: #3b3b3b;
+  color: white ;
+  text-shadow: 2px;
+  outline: none;
+  border-radius: 4px;
+  transition: all 2s ease 0s;
+}
+.progress{
+  background-color: rgb(167, 167, 168);
+  outline: none;
+  padding: 2px;
+  border-radius: 4px; 
+  box-shadow: 1px 1px 5px rgb(2, 130, 250);
+}
+
+
+
+
+
+
+
+.education-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.education-header{
+  color: white;
+  max-width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+  transition: 1s;
+}
+.education-item-list {
+  background-color:white;
+  color: black;
+  padding: 16px;
+  max-width: 400px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  transition:all 1s ease 0s;
+  transform: translateY(50%);
+}
+
+.education-container:hover .education-header{
+  transform: translateY(-100%);
+}
+.education-container:hover .education-item-list{
+  transform: translateY(100%);
+  box-shadow: 0px 0px 20px rgb(2, 130, 250);
+}
+.education-container{
+  margin: 10px 20px;
+}
+@media (max-width : 500px) {
+  .education-container{
+    margin: 10px 0px;
+  }
+}
+

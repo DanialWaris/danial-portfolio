@@ -1,0 +1,72 @@
+.about-card {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(46, 46, 46);
+  box-shadow: none;
+  border: none;
+  max-width: 1200px;
+  margin: auto;
+}
+@media (max-width: 760px) {
+  .about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-card img {
+    max-width: 40vw;
+    max-height: 40vw;
+  }
+}
+@media (max-width: 440px) {
+  .about-card img {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
+}
+.about-hero {
+  background-color: #2e2e2e;
+  padding: 100px 0px;
+}
+.row-data {
+  margin-top: 100px;
+}
+.about-card img {
+  border: 12px solid rgb(26, 25, 25);
+  width: 400px;
+  height: 400px;
+}
+.about-card-body {
+  background-color: rgb(46, 46, 46);
+}
+.about-card-body p {
+  color: rgb(167, 167, 168);
+}
+.about-head {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: rgb(167, 167, 168);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about h5 {
+  color: rgb(2, 130, 250);
+}
+.about-card-body button {
+  width: 100px;
+  padding:4px 8px;
+  border-radius: 40px;
+  background-color: #3b3b3b;
+  color: rgb(167, 167, 168);
+  box-shadow: 1px 1px 20px -6px;
+  margin: 10px 0px;
+  outline: none;
+}
+.about-card-body button:hover {
+background-color: #3b3b3b;
+color: rgb(2, 130, 250);
+}
+
+
+
+

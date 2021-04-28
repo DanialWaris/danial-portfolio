@@ -1,0 +1,33 @@
+.services-hero{
+    padding : 150px 0px;
+}
+.services-head{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 100px 0px; */
+  }
+  .services-head h5 {
+    color: rgb(2, 130, 250);
+  }
+  .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .services-card{
+      transition: all 1s ease 0s;
+  }
+  .services-card .fas{
+    transition: all 1s ease 0s;
+    font-size: 70px;
+  }
+  .services-card:hover .fas{
+      color :rgb(2, 130, 250);
+      text-shadow: 10px;
+  }
+  .services-card:hover{
+      transform: scale(1.2);
+  }

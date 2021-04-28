@@ -1,0 +1,85 @@
+.carousel-item img {
+  max-height: 750px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.carousel-caption {
+  color: white;
+  transition: all 1s ease 0s;
+  background-color: #0000008a;
+  justify-content: center;
+  margin: 4vw 0;
+  padding: 10px;
+  max-width: 100%;
+  max-height: 750px;
+  justify-items: center;
+  transition: all 3s ease 0.3s;
+}
+.carousel-caption h3 {
+  font-size: 3vw;
+}
+.carousel-caption:hover h1 {
+  font-size: 5vw;
+}
+.carousel-caption:hover p {
+  font-size: 2vw;
+}
+.carousel-caption:hover {
+  transition: all 3s ease 0.3s;
+  padding: 20px;
+  margin: 1vw;
+}
+.carousel-caption h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4vw;
+  transition: all 2s ease 0.3s;
+}
+.carousel-caption p {
+  font-size: 1.3vw;
+  transition: all 2s ease 0.3s;
+}
+.hero {
+  overflow-x: hidden;
+}
+@media (max-width: 750px) {
+  .carousel-caption p {
+    font-size: 2vw;
+    transition: all 2s ease 0.3s;
+  }
+}
+@media (max-width: 460px) {
+  .carousel-caption {
+    margin: -1vw;
+  }
+}
+@media (max-width: 420px) {
+  .carousel-caption p {
+    font-size: 2.3vw;
+    transition: all 2s ease 0.3s;
+  }
+  /* .carousel-caption{
+        margin: 4vw 0px;
+    } */
+}
+@media (max-width: 360px) {
+  .carousel-caption p {
+    font-size: 3vw;
+    transition: all 2s ease 0.3s;
+  }
+  .carousel-caption {
+    margin: -10vw 0px;
+  }
+}
+@media (max-width: 310px) {
+  .carousel-caption {
+    margin: -6vw;
+  }
+}
+
+.carousel-caption img {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 50%;
+}
